@@ -1,0 +1,9 @@
+streamlit
+langchain
+openai
+faiss-cpu
+easyocr
+whisper
+sympy
+sentence-transformers
+python-dotenv
