@@ -1,15 +1,17 @@
-from utils.gemini_llm import ask_gemini
+from utils.ollama_llm import ask_llm
 
 def explain_solution(problem, solution):
 
     prompt = f"""
-Explain step-by-step solution.
+Explain the following math solution step-by-step.
 
 Problem:
 {problem}
 
 Answer:
 {solution}
+
+Explain clearly so that a student can understand.
 """
 
-    return ask_gemini(prompt)
+    return ask_llm(prompt)
