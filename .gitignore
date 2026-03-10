@@ -2,9 +2,7 @@ venv/
 __pycache__/
 *.pyc
 .env
-.env.*
-*.pyd
 *.dll
-*.so
+*.pyd
 *.exe
 .ipynb_checkpoints/
